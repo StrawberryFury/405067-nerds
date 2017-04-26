@@ -1,74 +1,79 @@
 ﻿<!DOCTYPE html>
 
 <html lang="ru">
-
 	<head>
-
 	<meta charset="utf-8">
-
 	<title>HTML Academy: Нёрдс</title>
-  
-
+	<link href="css/style.css" rel="stylesheet">
  	</head>
-
 
 <body>
 
-
 <div class="page-header">
-	<div class="logo">
-	<img src="img/nerds-logo.jpg" width="160" height="64" alt="Нёрдс">
-	</div>
 	<nav class="nav-1">
-	<ul>
-	<li><a href="#">Студия</a></li>
-	<li><a href="#">Клиенты</a></li>
-	<li><a href="#">Магазин</a></li>
-	<li><a href="#">Контакты</a></li>
-	</ul>
+	  <ul>
+			<li><a href="#"><img src="img/nerds-logo.jpg" width="160" height="64" alt="Нёрдс"></a></li>
+			<li><a href="#">Студия</a></li>
+			<li><a href="#">Клиенты</a></li>
+			<li><a href="#">Магазин</a></li>
+			<li><a href="#">Контакты</a></li>
+	  </ul>
 	</nav>
+
 	<div class="shopping-cart">
 	<a href="#">Корзина</a>
 	</div>
+
 	<h1>Магазин готовых шаблонов</h1>
 </div>
 
 <div class="settings">
 	<form action="http://echo.nerds.ru" method="get">
-	<div class="price-range">
-	<label for="price-range"><b>Стоимость:</b></label>
-	от 0 <input type="range" id="price-range" name="price-range" min="0" max="15000" step="500"> до 15000
-	</div>
 
-	<div class="grid">
-	<label>
-	<b>Сетка:</b>
-	<input type="radio" name="adaptive" value="adaptive">
-	Адаптивная
-	</label>
-	<label>
-	<input type="radio" name="fixed" value="fixed">
-	Фиксированная
-	</label>
-	<label>
-	<input type="radio" name="rubber" value="rubber">
-	Резиновая
-	</label>
-	</div>
+	<fieldset class="price-range">
+	  <label for="price-range"><b>Стоимость:</b></label>
+	  от 0 <input type="range" id="price-range" name="price-range" min="0" max="15000" step="500"> до 15000
+  </fieldset>
 
-	<div class="features">
-	<span>Особенности</span>
-	<input type="checkbox" name="slider" id="slider" checked>
-	<label for="slider">Слайдер</label>
-	<input type="checkbox" name="advantage-block" id="advantage-block">
-	<label for="advantage-block">Блок преймуществ</label>
-	<input type="checkbox" name="news" id="news">
-	<label for="news">Новости</label>
-	<input type="checkbox" name="gallery" id="gallery">
-	<label for="gallery">Галерея</label>
-	<input type="checkbox" name="cart" id="cart">
-	<label for="cart">Корзина</label>
-	</div>
+	<fieldset>
+		<legend>Сетка:</legend>
+<ul  class="grid">
+	<li><label>
+	  <input type="radio" name="adaptive" value="adaptive">
+	  Адаптивная
+	</label></li>
+
+		<li><label>
+	  <input type="radio" name="fixed" value="fixed">
+	  Фиксированная
+	</label></li>
+
+<li><label>
+	  <input type="radio" name="rubber" value="rubber">
+	  Резиновая
+	</label></li>
+	</ul>
+	</fieldset>
+
+	<fieldset>
+	  <legend>Особенности</legend>
+    <ul class="features">
+				<li><input type="checkbox" name="slider" id="slider" checked>
+	  		<label for="slider">Слайдер</label></li>
+
+				<li><input type="checkbox" name="advantage-block" id="advantage-block">
+	  		<label for="advantage-block">Блок преймуществ</label></li>
+
+				<li><input type="checkbox" name="news" id="news">
+	  		<label for="news">Новости</label></li>
+
+				<li><input type="checkbox" name="gallery" id="gallery">
+	  		<label for="gallery">Галерея</label></li>
+
+				<li><input type="checkbox" name="cart" id="cart">
+	  		<label for="cart">Корзина</label></li>
+      </ul>
+		</fieldset>
 	</form>
 </div>
 
