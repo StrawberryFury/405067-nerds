@@ -9,11 +9,12 @@
 
 <body>
 
-<div class="page-header">
-	<div class="logo">
-	<img src="img/nerds-logo.jpg" width="160" height="64" alt="Нёрдс">
-	</div>
-	<nav>
+<header class="main-header">
+<div class="main-header-layout container">
+<div class="logo">
+	<a><img src="img/nerds-logo.png" width="160" height="64" alt="Нёрдс"></a>
+</div>
+<nav class="main-navigation">
 	<ul>
 	<li><a href="#">Студия</a></li>
 	<li><a href="#">Клиенты</a></li>
@@ -21,128 +22,137 @@
 	<li><a href="#">Контакты</a></li>
 	</ul>
 	</nav>
-	<div class="shopping-cart">
+
+	<div class="user-block">
 	<a href="#">Корзина</a>
-	</div>
+  </div>
+
 </div>
 
-	<ul class="slider">
-   <li>
-		 <span>Долго, дорого, скрупулезно.</span>
-     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-  	 <br><a href="#">Узнать больше</a>
-  	 <br><img src="img/ind/slide1.png" width="698" height="413">
-  </li>
+<div class="slider">
 
-  <li>
-	  <span>Любим математику, как никто другой</span>
-	  <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-	  <br><a href="#">Узнать больше</a>
-	  <br><img src="img/ind/slide2.png" width="698" height="413">
-  </li>
+	<div class="slider-controls">
+		<i class="active"></i>
+		<i></i>
+		<i></i>
+	</div>
 
-	<li>
-		<span>Только ночь,только хардкор</span>
+	<div class="slides">
+   <div class="slide">
+		 <div class="slide-text">
+		 		<span>Долго, дорого, скрупулезно.</span>
+     		<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+  	 		<a class="btn" href="#">Узнать больше</a>
+			</div>
+	  </div>
+
+		<div class="slide">
+			<div class="slide-text">
+	  	<span>Любим математику, как никто другой</span>
+	  	<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+	  	<a class="btn" href="#">Узнать больше</a>
+		</div>
+		</div>
+
+		<div class="slide">
+		<div class="slide-text"><span>Только ночь,только хардкор</span>
 		<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-		<br><a href="#">Узнать больше</a>
-		<br><img src="img/ind/slide3.png" width="698" height="413">
-	</li>
+		<a class="btn" href="#">Узнать больше</a>
+	</div>
+	</div>
+</div>
+</header>
 
-</ul>
-<br>
+<main class="main-container">
 
-<article class="web-sites">
+<div class="features">
+<article class="feature-item">
 	<img src="img/ind/ill-1.jpg" width="300" height="146" alt="Веб-сайты">
 	<h2>Веб-сайты</h2>
-	<span>Мир никогда не будет прежним после того как увидит ваш сайт!</span>
-	<a href="#">Заказать</a>
+	<p>Мир никогда не будет прежним, после того как увидит ваш сайт!</p>
+	<a class="btn" href="#">Заказать</a>
 </article>
 
-<article class="apps">
+<article class="feature-item">
 	<img src="img/ind/ill-2.jpg" width="300" height="146" alt="Приложения">
 	<h2>Приложения</h2>
-	<span>Покорите топ-10 приложений в AppStore и Google Play</span>
-	<a href="#">Заказать</a>
+	<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+	<a class="btn" href="#">Заказать</a>
 </article>
 
-<article class="presentations">
-	<img src="img/ind/ill-1.jpg" width="300" height="146" alt="Презентации">
+<article class="feature-item">
+	<img src="img/ind/ill-3.jpg" width="300" height="146" alt="Презентации">
 	<h2>Презентации</h2>
-	<span>Вы даже не подозреваете, насколько вы изумительны!</span>
-	<a href="#">Заказать</a>
+	<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+	<a class="btn" href="#">Заказать</a>
 </article>
-
-<div class="about-us">
-	<h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-	<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-	<b>Выполняем заказы на разработку:</b>
-	<ul class="services">
-	<li>Веб-сайтов любой сложности</li>
-	<li>Мобильных приложений для iOS и Android</li>
-	<li>Слайдшоу и видео для корпоративных презентаций</li>
-	</ul>
 </div>
 
-<div class="ads">
-	<img src="img/ind/nerds-ill.jpg" alt="Нёрдс-2">
-	<br><b>С 2004 года любим точность во всем</b>
-	<div>
-	<b>146%</b>
-	<span>Уровень самоотдачи</span>
-	</div>
-	<div>
-	<b>100%</b>
-	<span>Соблюдение сроков</span>
-	</div>
-	<div>
-	<b>50%</b>
-	<span>Минимальная предоплата</span>
-	</div>
-</div>
+<div class="index-content">
+	<div class="index-content-left">
+		<h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+		<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+		<b>Выполняем заказы на разработку:</b>
+			<ul>
+				<li>Веб-сайтов любой сложности</li>
+				<li>Мобильных приложений для iOS и Android</li>
+				<li>Слайдшоу и видео для корпоративных презентаций</li>
+			</ul>
+		</div>
 
-<div class="footer">
-	<div class="partners">
-	<a href="#">
-	<img src="img/logo-1.png" width="199" height="68" alt="HTML-Academy">
-	</a>
-	<a href="#">
-	<img src="img/logo-2.png" width="209" height="90" alt="Borodinski">
-	</a>
-	<a href="#">
-	<img src="img/logo-3.png" width="185" height="52" alt="Pink">
-	</a>
-	<a href="#">
-	<img src="img/logo-4.png" width="173" height="84" alt="Mishka">
-	</a>
-        </div>
+		<div class="index-content-right">
+			<img src="img/ind/nerds-ill.jpg" width="360" height="208" alt="Нёрдс-2">
+			<b>С 2004 года любим точность во всем:</b>
+    <div class="percents">
+			<div class="number">
+			 <h2>146</h2><span class="sup">%</span>
+			  <p>Уровень самоотдачи</p>
+		  </div>
 
-	<div class="contacts">
-	<a href="#">
-	<img src="img/map.png" width="1400" height="390" alt="Map">
-	</a>
+			<div class="number">
+				<h2>100</h2><span class="sup">%</span>
+				<p>Соблюдение сроков</p>
+			</div>
 
-	<article class="adress">
-	<b>Nёrds design studio</b>
-	<br><span>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-	<br><span>тел. +7 (812) 275-75-75</span>
-	<br><a href="#">Напишите нам</a>
-	</article>
+			<div class="number">
+				<h2>50</h2><span class="sup">%</span>
+				<p>Минимальная предоплата</p>
+			</div>
+			</div>
+		</div>
+	  </div>
+
+<div class="partners">
+		<a href="#"><div class="html-academy"></div></a>
+    <a href="#"><div class="borodinski"></div></a>
+		<a href="#"><div class="pink"></div></a>
+		<a href="#"><div class="mishka"></div></a>
+	</div>
+</main>
+
+<footer class="main-footer">
+
+<div class="main-footer-layout">
+
+<div class="contacts">
+		<div class="adress">
+			<b>Nёrds design studio</b>
+				<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+				<p>тел. +7 (812) 275-75-75</p>
+				<a class="btn" href="#">Напишите нам</a>
+			</div>
 	</div>
 
 	<div class="social-networks">
-	<a href="#">
-	<img src="http://placehold.it" alt="Вконтакте">
-	</a>
-	<a href="#">
-	<img src="http://placehold.it" alt="Facebook">
-	</a>
-	<a href="#">
-	<img src="http://placehold.it" alt="Instagram">
-	</a>
-	<b>Давайте дружить, это выгодно!</b>
-	<span>Скидка 10% для друзей из социальных сетей</span>
+		<a class="social social-vk" href="#"></a>
+		<a class="social social-fb" href="#"></a>
+		<a class="social social-ig" href="#"></a>
+		<div class="social-text"><h2>Давайте дружить, это выгодно!</h2>
+		<p>Скидка 10% для друзей из социальных сетей</p></div>
 	</div>
-</div>
-</body>
 
+</div>
+
+</footer>
+</body>
 </html>
