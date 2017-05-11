@@ -4,6 +4,7 @@
 	<head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Нёрдс</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic">
   <link href="css/style.css" rel="stylesheet">
  	</head>
 
@@ -12,7 +13,7 @@
 <header class="main-header">
 <div class="main-header-layout container">
 <div class="logo">
-	<a><img src="img/nerds-logo.png" width="160" height="64" alt="Нёрдс"></a>
+	<a></a>
 </div>
 <nav class="main-navigation">
 	<ul>
@@ -41,29 +42,30 @@
    <div class="slide">
 		 <div class="slide-text">
 		 		<span>Долго, дорого, скрупулезно.</span>
-     		<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+     		<p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
   	 		<a class="btn" href="#">Узнать больше</a>
 			</div>
 	  </div>
 
 		<div class="slide">
 			<div class="slide-text">
-	  	<span>Любим математику, как никто другой</span>
-	  	<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-	  	<a class="btn" href="#">Узнать больше</a>
-		</div>
+	  		<span>Любим математику, как никто другой</span>
+	  		<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+	  		<a class="btn" href="#">Узнать больше</a>
+			</div>
 		</div>
 
 		<div class="slide">
-		<div class="slide-text"><span>Только ночь,только хардкор</span>
-		<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-		<a class="btn" href="#">Узнать больше</a>
+			<div class="slide-text">
+				<span>Только ночь, только хардкор</span>
+				<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+				<a class="btn" href="#">Узнать больше</a>
+			</div>
+		</div>
 	</div>
-	</div>
-</div>
 </header>
 
-<main class="main-container">
+<main class="container">
 
 <div class="features">
 <article class="feature-item">
@@ -103,7 +105,9 @@
 		<div class="index-content-right">
 			<img src="img/ind/nerds-ill.jpg" width="360" height="208" alt="Нёрдс-2">
 			<b>С 2004 года любим точность во всем:</b>
-    <div class="percents">
+
+		<div class="percents">
+
 			<div class="number">
 			 <h2>146</h2><span class="sup">%</span>
 			  <p>Уровень самоотдачи</p>
@@ -118,15 +122,16 @@
 				<h2>50</h2><span class="sup">%</span>
 				<p>Минимальная предоплата</p>
 			</div>
-			</div>
+
 		</div>
-	  </div>
+	</div>
+</div>
 
 <div class="partners">
-		<a href="#"><div class="html-academy"></div></a>
-    <a href="#"><div class="borodinski"></div></a>
-		<a href="#"><div class="pink"></div></a>
-		<a href="#"><div class="mishka"></div></a>
+		<a href="https://htmlacademy.ru/intensive/htmlcss"><div class="partner html-academy"></div></a>
+    <a href="#"><div class="partner borodinski"></div></a>
+		<a href="#"><div class="partner pink"></div></a>
+		<a href="#"><div class="partner mishka"></div></a>
 	</div>
 </main>
 
@@ -143,12 +148,29 @@
 			</div>
 	</div>
 
+<div class="message-form">
+	<h2>Напишите нам</h2>
+		<form action="http://echo.nerds.ru" method="post">
+			<div class="input-name"><label for="name">Ваше имя:</label><br>
+			<input type="text" name="name" placeholder="Представьтесь, пожалуйста"></div>
+
+			<div class="input-email"><label for="e-mail">Ваш e-mail:</label><br>
+			<input type="text" name="e-mail" placeholder="Для отправки ответа"></div>
+
+			<div class="input-message"><label for="message">Текст письма:</label>
+			<textarea name="message" rows="5">В свободной форме</textarea></div>
+
+			<button class="btn" type="submit">Отправить</button>
+			<button class="message-form-close" type="button" title="Закрыть">Закрыть</button>
+		</form>
+	</div>
+
 	<div class="social-networks">
 		<a class="social social-vk" href="#"></a>
 		<a class="social social-fb" href="#"></a>
 		<a class="social social-ig" href="#"></a>
 		<div class="social-text"><h2>Давайте дружить, это выгодно!</h2>
-		<p>Скидка 10% для друзей из социальных сетей</p></div>
+		<p>Скидка 10% для друзей из социальных сетей.</p></div>
 	</div>
 
 </div>
